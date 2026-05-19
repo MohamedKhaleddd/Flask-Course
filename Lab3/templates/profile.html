@@ -1,0 +1,10 @@
+
+{% extends 'base.html' %}
+{% block title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+ <h1>{{message}}</h1>
+<h2> Id: {{user.id}} - Name: {{user.name}} - Age: {{user.age}}</h2>
+{% endblock %}
